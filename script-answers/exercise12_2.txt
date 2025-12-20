@@ -1,0 +1,12 @@
+PS C:\code\Mooc>  docker run -it ubuntu bash
+Unable to find image 'ubuntu:latest' locally
+latest: Pulling from library/ubuntu
+20043066d3d5: Pull complete
+06808451f0d6: Download complete
+Digest: sha256:c35e29c9450151419d9448b0fd75374fec4fff364a27f176fb458d472dfc9e54
+Status: Downloaded newer image for ubuntu:latest
+root@0c580f0a0cdd:/# mkdir /usr/src/app
+root@0c580f0a0cdd:/# touch /usr/src/app/index.js
+root@0c580f0a0cdd:/# exit
+exit
+PS C:\code\Mooc>
