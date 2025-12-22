@@ -1,9 +1,14 @@
+const { loadEnvFile } = require('node:process');
 const express = require('express');
 const logger = require('morgan');
 const cors = require('cors');
 
+loadEnvFile();
+
 const indexRouter = require('./routes/index');
 const todosRouter = require('./routes/todos');
+
+const redis = require('./redis')
 
 const app = express();
 
